@@ -19,6 +19,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".NextActivity" />
+        <service android:name=".TestService" />
+        <receiver android:name="TestReceiver" />
     </application>
 
 </manifest>
